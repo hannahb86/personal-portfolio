@@ -7,14 +7,14 @@ import musicImg from '../assets/music.png'
 
 const Projects = () => {
     return (
-        <div id='projects' className='max-w-[1040] m-auto md:pl-20 p-4 py-16'>
-            <h1 className='text-4xl font-bold text-center text-[#312E81]'>Projects</h1>
+        <div id='projects' className='max-w-[1040] m-auto md:p-40 p-4 py-16'>
+            <h1 className='text-4xl font-bold text-center text-indigo-900'>Projects</h1>
             <p className='text-center py-8 text-gray-500' >Lorem ipsum dolor sit amet 
             consectetur, a dipisicing elit. Expedita corporis voluptas voluptate aspernatur pariatur 
             sequi nulla perferendis omnis fuga itaque.
             </p>
 
-            <div className='grid sm:grid-cols-2 gap-12'>
+            <div className='grid sm:grid-cols-4 gap-24'>
                 <ProjectItem img={asdaCoffeeImg} title={'Indulgent Coffee Experience'} />
                 <ProjectItem img={ caredialImg} title={'Caredial'} />
                 <ProjectItem img={chqueSpltImg} title={'Chque Splt'} />

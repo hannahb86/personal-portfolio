@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import SideNav from './components/SideNav';
 import Background from './components/Background';
-import Work from './components/Work';
 import Projects from './components/Projects';
+import About from './components/About';
+import ContactForm from './components/ContactForm';
 
 function App() {
 
@@ -10,8 +11,9 @@ function App() {
     <div>
       <SideNav />
       <Background />
-      <Work />
       <Projects />
+      <About />
+      <ContactForm />
     </div>
 
   )

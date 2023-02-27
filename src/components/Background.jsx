@@ -16,10 +16,10 @@ const Background = ( ) => {
                     I'm a 
                 <TypeAnimation
                     sequence={[
-                        'Developer', // Types 'One'
+                        'Front-End Developer', // Types 'One'
                         1000, // Waits 1s
                         'Programmer', // Deletes 'One' and types 'Two'
-                        1000, // Waits 2s
+                        1000, // Waits 1s
                         'UI/UX Designer', // Types 'Three' without deleting 'Two'
                         1000,
                     ]}
