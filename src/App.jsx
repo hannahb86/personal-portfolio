@@ -3,7 +3,7 @@ import Background from './components/Background';
 import Projects from './components/Projects';
 import About from './components/About';
 import ContactForm from './components/ContactForm';
-import Skills from './components/Skills';
+import Tools from './components/Tools';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <SideNav />
       <Background />
       <About />
-      <Skills />
+      <Tools />
       <Projects />
       <ContactForm />
     </div>
