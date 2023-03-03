@@ -6,7 +6,7 @@ import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 const Background = ( ) => {
     return (
         <div id='background'>
-            <img className='w-full h-screen object-cover' src="./background-img.png" alt="Photo by Arnold Francisca"></img>
+            <img className='w-full h-screen object-cover' src="./background-img.jpg" alt="Photo by Arnold Francisca"></img>
             <div className='w-full h-screen absolute top-0 left-0 bg-white/40'>
 
             <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lf:items-start items-center'>
