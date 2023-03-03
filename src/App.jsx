@@ -11,8 +11,8 @@ function App() {
     <div>
       <SideNav />
       <Background />
-      <Projects />
       <About />
+      <Projects />
       <ContactForm />
     </div>
 

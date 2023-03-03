@@ -26,7 +26,7 @@ const Background = ( ) => {
                     wrapper="div"
                     cursor={true}
                     repeat={Infinity}
-                    style={{ fontSize: '1em', paddingLeft: '5px' }}
+                    style={{ fontSize: '1em', paddingLeft: '5px'}}
                     /> </h2>
                 <div className='flex justify-between pt-3 max-w-[160px] w-full'> 
                     <FaLinkedin className='cursor-pointer' size={20}/>
