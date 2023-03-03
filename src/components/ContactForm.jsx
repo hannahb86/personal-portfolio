@@ -2,7 +2,8 @@ import React from 'react'
 
 const ContactForm = () => {
   return (
-    <div id='contact' className='max-w-[700] m-auto md:p-40 py-16'>
+    <div>
+    <div id='contact' className='max-w-[700px] m-auto md:p-40 py-16'>
         <h1 className='text-4xl font-bold text-center text-indigo-900'>Contact</h1>
         <form action='https://getform.io/f/b000d23a-326d-489e-99a7-f8faa9818df3' method='POST' encType='multipart/form-data'>
 
