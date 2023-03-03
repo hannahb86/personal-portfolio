@@ -2,7 +2,7 @@ import React from 'react';
 
 const Tools = () => {
   return (
-    <div className='max-w-[1040px] m-auto py-16'>
+    <div id='tools' className='max-w-[1040px] m-auto py-16'>
         <h1 className='text-4xl font-bold text-center text-indigo-900'>Skills</h1>
 
         <div className='mt-16 grid gap-6 grid-cols-6 grid-row-4'>

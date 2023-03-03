@@ -11,7 +11,7 @@ const SideNav = () => {
     };
 
     return (
-    <div> {/* --- mobile nav --- */} 
+    <div id='main'> {/* --- mobile nav --- */} 
       <AiOutlineMenu onClick={handleNav} className='bg-gray-100 w-full fixed top-0 right-0 z-[99] cursor-pointer md:hidden' />
       {
         nav ? ( // ternary operator for if statement
@@ -28,7 +28,7 @@ const SideNav = () => {
                     <span className='pl-4'>About</span>
                 </a>
 
-                <a onClick={handleNav} href='#skills' className='w-[75%] flex justify-center items-center rounded-full shadow-sm 
+                <a onClick={handleNav} href='#tools' className='w-[75%] flex justify-center items-center rounded-full shadow-sm 
                 bg-gray-100 shadow-gray-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                     <AiOutlineTool size={20} />
                     <span className='pl-4'>Skills</span>
@@ -68,7 +68,7 @@ const SideNav = () => {
                 <BsPerson size={20}/>
                 </a>
                 
-                <a href='#skills' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 
+                <a href='#tools' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 
                 m-4 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                 <AiOutlineTool size={20}/>
                 </a>
